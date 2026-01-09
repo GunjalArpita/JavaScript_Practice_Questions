@@ -1,3 +1,9 @@
+//write a function that takes an array of numbers and returns the largest number from array.
+//input-[3,7,2,9,5]-o/p-9
+//input-[-10,-5,-2] o/p- -2
+//not use Math.max() , do not sort array , return largest value
+
+
 function maxArray(arr)
 {   
     let max=arr[0]
