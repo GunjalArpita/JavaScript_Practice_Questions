@@ -23,7 +23,7 @@ function add(arr)
         }
     
     return sum
-}
+    }
 
 console.log(add([1,2,3,4,5]));
 console.log(add([1,2,3,4,5,1]));
