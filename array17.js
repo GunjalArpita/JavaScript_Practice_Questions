@@ -1,8 +1,6 @@
 // Ek function likho jo array me missing number find kare.
-
-// 👉 Array me numbers 1 se N tak hone chahiye
-// 👉 Ek number missing hai
-
+//  Array me numbers 1 se N tak hone chahiye
+//  Ek number missing hai
 // Example:
 // findMissing([1, 2, 4, 5])        // 3
 // findMissing([2, 3, 1, 5])        // 4
