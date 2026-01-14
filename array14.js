@@ -1,3 +1,14 @@
+// Question:
+// Ek function likho jo check kare ki array me koi duplicate element hai ya nahi.
+// 👉 Duplicate matlab: same value more than once
+// Example:
+// hasDuplicate([1, 2, 3, 4])        // false
+// hasDuplicate([1, 2, 3, 1])        // true
+// hasDuplicate([5])                // false
+//hasDuplicate([1, "1", 1])        // true
+
+
+
 function check(arr)
 {
     for(let i=0;i<arr.length;i++)
