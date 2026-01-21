@@ -12,3 +12,6 @@ function outer() {
 
 outer();
 console.log(x);
+
+// 2
+// 1

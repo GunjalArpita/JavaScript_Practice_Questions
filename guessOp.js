@@ -9,3 +9,9 @@ function test() {
 
 test();
 console.log(a);
+
+
+// undefined
+// undefined
+// 20
+ 10
