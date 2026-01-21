@@ -9,4 +9,4 @@ function foo() {
 console.log(foo);
 
 //[Function: foo]
-A
+//A
