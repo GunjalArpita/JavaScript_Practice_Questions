@@ -14,4 +14,4 @@ console.log(a);
 // undefined
 // undefined
 // 20
- 10
+// 10
