@@ -14,6 +14,7 @@ console.log(obj2.b.c);
 //Spread creates a shallow copy, nested objects still share reference
 //Both obj1.b and obj2.b point to the same object in memory
 //So modifying obj2.b.c also affects obj1.b.c
+
 //Output:
 //5
 //5
