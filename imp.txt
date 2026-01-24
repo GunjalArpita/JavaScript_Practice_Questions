@@ -1,0 +1,23 @@
+| Concept                 | Array                            | Object                            |
+| ----------------------- | -------------------------------- | --------------------------------- |
+| Type                    | Reference type                   | Reference type                    |
+| Stored as               | Memory reference                 | Memory reference                  |
+| Assignment (`=`)        | Same reference shared            | Same reference shared             |
+| Example                 | `b = a`                          | `obj2 = obj1`                     |
+| Change via new variable | Affects original                 | Affects original                  |
+| Interview line          | “Arrays are passed by reference” | “Objects are passed by reference” |
+
+
+| Code         | Result           | Reason            |
+| ------------ | ---------------- | ----------------- |
+| `b = a`      | Both change      | Same reference    |
+| `b = [...a]` | Only `b` changes | New array created |
+| `{...obj}`   | Top-level copy   | Shallow copy      |
+
+
+| Structure                  | Spread Result    | Interview Truth |
+| -------------------------- | ---------------- | --------------- |
+| Array (flat)               | New array        | Safe copy       |
+| Object (flat)              | New object       | Safe copy       |
+| Nested object              | Shared reference | ⚠️ Shallow copy |
+| Nested array inside object | Shared reference | ⚠️ Shallow copy |
