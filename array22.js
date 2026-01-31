@@ -19,3 +19,10 @@ function move(arr)
     return res
 }
 console.log(move([1,0,2,0,4,3,0,5]));
+
+//op
+//[
+//   1, 2, 4, 3,
+//   5, 0, 0, 0
+// ]
+//Move all zeros to the end (without changing order)
