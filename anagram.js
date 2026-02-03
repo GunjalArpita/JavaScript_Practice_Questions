@@ -36,3 +36,6 @@ function checkAnagram(str1,str2)
 console.log(checkAnagram("listen","silent"));
 console.log(checkAnagram("hello","world"));
 
+//true
+//false
+
